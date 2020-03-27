@@ -21,6 +21,11 @@ resource "aws_instance" "web" {
   tags = {
     Name = "sentinel-vm"
     team = "presales"
-    
+    product = "weather"
+    environment = "demo"
+    owner = "rohitg"
+    bu = "architects"
+    function = "api"
+    costcenter = "007"
   }
 }
