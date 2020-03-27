@@ -1,0 +1,1 @@
+Terraform Sentinel with aws vm tags
