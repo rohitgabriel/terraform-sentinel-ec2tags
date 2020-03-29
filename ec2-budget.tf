@@ -2,10 +2,10 @@ resource "aws_budgets_budget" "ec2" {
   name              = "budget-ec2-daily"
   budget_type       = "COST"
   limit_amount      = "10"
-  limit_unit        = "USD"
+  limit_unit        = "AUD"
   time_period_end   = "2087-06-15_00:00"
-  time_period_start = "2020-28-03_00:00"
-  time_unit         = "DAILY"
+  time_period_start = "2020-03-28_00:00"
+  time_unit         = "MONTHLY"
 
   cost_filters = {
     Service = "Amazon Elastic Compute Cloud - Compute"
