@@ -26,6 +26,6 @@ resource "aws_instance" "web" {
     owner = "rohitg"
     bu = "architects"
     function = "api"
-    costcenter = "007"
+    costcenters = "007"
   }
 }
