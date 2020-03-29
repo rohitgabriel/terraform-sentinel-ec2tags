@@ -25,7 +25,7 @@ resource "aws_instance" "web" {
     environment = "demo"
     owner = "rohitg"
     bu = "architects"
-    function = "api"
+    function = "IT"
     costcenter = "007"
   }
 }
